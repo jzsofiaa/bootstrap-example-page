@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootsrap example page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md p-3">
+        <a class="navbar-brand text-white">Logo</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav navbar-primary ml-auto py-4 py-md-0">
+                <li class="nav-item ml-md-4">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item ml-md-4">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item ml-md-4">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" data-aos="zoom-in">
+                <img src="images/people.png" id="main-image">
+            </div>
+            <div class="col-md-6" id="introduction">
+                <h1 class="title" data-aos="fade-right" data-aos-delay="500">Welcome!</h1>
+                <div data-aos="fade-right" data-aos-delay="500" class="underline"></div>
+                <p data-aos="fade-right" data-aos-delay="800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum, velit ut imperdiet condimentum, arcu
+                    mauris sagittis ipsum, vitae dapibus enim turpis at risus. Quisque nec purus dapibus eros rhoncus ultricies. Nam fermentum dolor ligula, ut lobortis neque ultricies vitae. Aliquam
+                    erat volutpat. In eu ipsum ex. Etiam et nunc blandit, ultrices neque id, varius justo. Aenean cursus suscipit pharetra.
+                    Donec dignissim placerat orci, a cursus dolor consectetur id.</p>
+                <button type="submit" class="btn btn-primary" data-aos="zoom-in" data-aos-delay="1200">Learn more</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-3" id="example-articles">
+        <div class="row">
+            <div class="col-md-8 p-4" id="left-text-box" data-aos="fade-right" data-aos-delay="500">
+                <h1 class="title">Lorem Impsum</h1>
+                <div class="underline"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum, velit ut imperdiet condimentum, arcu mauris
+                sagittis ipsum, vitae dapibus enim turpis at risus. Quisque nec purus dapibus eros rhoncus ultricies. Nam fermentum
+                dolor ligula, ut lobortis neque ultricies vitae. Aliquam erat volutpat. In eu ipsum ex. Etiam et nunc blandit, ultrices
+                neque id, varius justo. Aenean cursus suscipit pharetra.auctor lectus diam ut est. Maecenas auctor ex a semper suscipit. Aenean cursus molestie dolor. Proin vel nisl non lorem
+                lobortis lacinia et eget arcu. Cras feugiat eros in lobortis ultricies. Aliquam a nulla vestibulum, tempus neque id,
+                blandit lorem.<br>
+                Donec et gravida ex. Morbi lacinia sit amet massa vitae pretium. Maecenas pellentesque purus nec urna vehicula porta.
+                Aenean interdum efficitur tellus. Sed tellus nunc, volutpat ut ex vel, rhoncus luctus nibh. Quisque at auctor orci.</p>
+                <button type="submit" class="btn btn-primary">Learn more</button>
+            </div>
+            <div class="col-md-4 p-4" id="right-text-box" data-aos="fade-left" data-aos-delay="500">
+                <h1 class="title">Lorem Impsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum, velit ut imperdiet condimentum, arcu mauris
+                sagittis ipsum, vitae dapibus enim turpis at risus. Quisque nec purus dapibus eros rhoncus ultricies. Nam fermentum
+                dolor ligula, ut lobortis neque ultricies vitae. Aliquam erat volutpat. In eu ipsum ex. Etiam et nunc blandit, ultrices
+                neque id, varius justo. Aenean cursus suscipit pharetra.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-4 text-center" id="quote" data-aos="zoom-in" data-aos-delay="500">
+        <h1>"<i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</i>"</h1>
+    </div>
+
+    <div class="container" id="form">
+        <div class="row">
+            <div class="col-md-3" data-aos="fade-right" data-aos-delay="2000">
+                <img src="images/arrow.png" id="left-arrow-icon">
+            </div>
+            <div class="col-md-6 text-center" id="subscribe-box" data-aos="zoom-in-up" data-aos-delay="1000">
+                <h2 class="title">Newsletter</h2>
+                <form>
+                    <div class="form-group d-flex justify-content-center">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary" id="subscribe-btn">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-3" data-aos="fade-left" data-aos-delay="2000">
+                <img src="images/arrow.png" id="right-arrow-icon">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="jumbotron text-center">
+            <h1 class="title">Lorem Impsum</h1>
+            <div class="mx-auto underline"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vestibulum, velit ut imperdiet condimentum, arcu mauris
+            sagittis ipsum, vitae dapibus enim turpis at risus. Quisque nec purus dapibus eros rhoncus ultricies. Nam fermentum
+            dolor ligula, ut lobortis neque ultricies vitae.</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="animate.js"></script>
+</body>
+</html>
